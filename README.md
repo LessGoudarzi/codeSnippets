@@ -36,3 +36,5 @@ End Function
 
 
 check out our wiki page [codeSnippetsVBA wiki](https://github.com/LessGoudarzi/codeSnippetsVBA/wiki)
+
+Now to go to a specific page in the wike [Direction Comes First](https://github.com/LessGoudarzi/codeSnippetsVBA/wiki/Direction-Comes-First)
