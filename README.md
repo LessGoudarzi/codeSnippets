@@ -35,4 +35,4 @@ End Function
 ```
 
 
-check out our web page [onlocation/energy systems consulting](http://www.onlocationinc.com/about.html)
+check out our wiki page [codeSnippetsVBA wiki](https://github.com/LessGoudarzi/codeSnippetsVBA.wiki.git)
