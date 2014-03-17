@@ -35,4 +35,4 @@ End Function
 ```
 
 
-check out our wiki page [codeSnippetsVBA wiki](https://github.com/LessGoudarzi/codeSnippetsVBA.wiki.git)
+check out our wiki page [codeSnippetsVBA wiki](https://github.com/LessGoudarzi/codeSnippetsVBA/wiki)
