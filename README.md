@@ -3,4 +3,8 @@ codeSnippetsVBA
 
 VBA Snippet Archiving
 
-# wow will this really work for me
+### wow will this really work for me
+
+'''
+now for some code example
+'''
