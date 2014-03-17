@@ -3,7 +3,8 @@ codeSnippetsVBA
 
 VBA Snippet Archiving
 
-### wow will this really work for me
+Generate an Index to allow the storing of data that matches the index
+see xlsm file read_wellon_debug xxx
 
 ```VBA
 Public indexMax As Long                   'This tracks the last position used in the playIndex array
