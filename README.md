@@ -37,4 +37,4 @@ End Function
 
 check out our wiki page [codeSnippetsVBA wiki](https://github.com/LessGoudarzi/codeSnippetsVBA/wiki)
 
-Now to go to a specific file in the package [Link to examplesVBA.md](https://github.com/LessGoudarzi/codeSnippetsVBA/wiki/examplesVBA.md)
+Now to go to a specific file in the package [Link to examplesVBA.md](https://github.com/LessGoudarzi/codeSnippetsVBA/blob/master/examplesVBA.md)
