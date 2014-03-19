@@ -1,40 +1,11 @@
-codeSnippetsVBA
-===============
+codeSnippets
+============
 
-VBA Snippet Archiving
+## Snippet Archiving
 
-Generate an Index to allow the storing of data that matches the index
-see xlsm file read_wellon_debug xxx
+I often  find myself re-generating code that  I know I have already produced on another project.  As such, I am hoping to use this github to collect together various snippets of code that I can later use.
 
-```VBA
-Public indexMax As Long                   'This tracks the last position used in the playIndex array
-Public playIndex(2000) As Double          'This is the array that holds the index -- max indexes = 2000
+I often work with:
 
-Public Function getIndex(iPlay)
-' this function is to return unique index for each play since the plays are not in a sorted order
-'
-' loop through the already assigned indexes
-
-    'MsgBox ("i am here : " & iPlay)
-    'getIndex = 0
-    tempIndex = 0
-    For i = 1 To indexMax
-      If iPlay = playIndex(i) Then tempIndex = i
-    Next
-    
-    If tempIndex = 0 Then
-        tempIndex = indexMax + 1
-        indexMax = indexMax + 1
-        playIndex(indexMax) = iPlay
-    End If
-    
-    
-    getIndex = tempIndex
-
-End Function
-```
-
-
-check out our wiki page [codeSnippetsVBA wiki](https://github.com/LessGoudarzi/codeSnippetsVBA/wiki)
-
-Now to go to a specific file in the package [Link to examplesVBA.md](https://github.com/LessGoudarzi/codeSnippetsVBA/blob/master/examplesVBA.md)
+VBA, primarily for Excel but some with Word and Access
+D3.js, a very powerful data visualiaztion package written in javascript
