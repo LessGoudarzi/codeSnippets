@@ -35,6 +35,6 @@ End Function
 ```
 
 
-check out our wiki page [codeSnippetsVBA wiki](https://github.com/LessGoudarzi/codeSnippets/wiki)
+check out our wiki page [codeSnippets wiki](https://github.com/LessGoudarzi/codeSnippets/wiki)
 
 
