@@ -17,7 +17,9 @@ I plan on putting together alternative files that will share the various code sn
 
 I will put links to the files here.
 
-My fist link is to an example of VBA code used to create and manage an index.
+My fist link is to an example of VBA code used to create and manage an index.  
+
+Now to go to a specific file in the package [Link to examplesVBA.md](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md)
 
 Any comments ar suggestions are welcome.
 
