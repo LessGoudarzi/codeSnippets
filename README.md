@@ -7,5 +7,17 @@ I often  find myself re-generating code that  I know I have already produced on 
 
 I often work with:
 
-VBA, primarily for Excel but some with Word and Access
-D3.js, a very powerful data visualiaztion package written in javascript
+* VBA, primarily for Excel but some with Word and Access  
+* [D3.js](http://www.d3js.org), a very powerful data visualiaztion package written in javascript  
+  * [Dimple.js](http://www.Dimplejs.org) an extension of D3.js
+  * [Crossfilter.js](http://square.github.io/crossfilter/) another useful library of javascript
+* [eViews](http://www.eviews.com/home.html), an eccnometric programming language
+
+I plan on putting together alternative files that will share the various code snippets that I have found useful to re-use.
+
+I will put links to the files here.
+
+My fist link is to an example of VBA code used to create and manage an index.
+
+Any comments ar suggestions are welcome.
+
