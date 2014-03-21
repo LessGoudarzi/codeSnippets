@@ -17,15 +17,13 @@ I plan on putting together alternative files that will share the various code sn
 
 I will put links to the files here.
 
-* [VBA [abstract]](#vba-stuff)
-
-My fist link is to an example of VBA code used to create and manage an index.  
-
-Now to go to a specific file in the package [Link to examplesVBA.md](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md)
-
-Any comments ar suggestions are welcome.
+* [VBA](#vba-stuff)
+* [D3JS]
+* [eViews]
+* [Other]
 
 The following is an example of an internal link with an abstract taken from another site
-## <a name="vba-stuff" href="#vba-stuff">#</a> VBA [Abstract]
-Base chart is an abstract functional object representing a basic dc chart object for all chart and widget implementation. Every function on base chart are also inherited available on all concrete chart implementation in dc library.
+## <a name="vba-stuff" href="#vba-stuff"></a> VBA
+* [Creating and using an Index](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md)
 
+Any comments ar suggestions are welcome.
