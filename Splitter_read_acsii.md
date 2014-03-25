@@ -8,6 +8,7 @@ character(s) in the string.
 
 
 ```
+
 Public Function Split(ByVal InputText As String, _
          Optional ByVal Delimiter As String) As Variant
 
