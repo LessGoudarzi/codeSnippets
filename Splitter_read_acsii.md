@@ -1,3 +1,5 @@
+## Split function to parse long string
+
 I often have a need to read an ascii file and process it in Excel. 
 I have used this funtion to address that problem.
 I read a line of the file into a string variable and then call this function to parse the string into "words".
