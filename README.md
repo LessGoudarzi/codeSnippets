@@ -28,6 +28,6 @@ Any comments ar suggestions are welcome.
 
 ## <a name="vba-stuff" href="#vba-stuff"></a> VBA
 * [Creating and using an Index](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md)
-* [Splitting a string, used in my case to allow reading an ascii file](https://github.com/LessGoudarzi/codeSnippets/blob/master/splitter_read_ascii.md)
+* [Splitting a string, used in my case to allow reading an ascii file](https://github.com/LessGoudarzi/codeSnippets/blob/master/splitter_read_ascii.md) 
 
 
