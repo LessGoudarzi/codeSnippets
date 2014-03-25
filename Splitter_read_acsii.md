@@ -1,4 +1,4 @@
-## Split function to parse long string
+## Split function to parse long string 
 
 I often have a need to read an ascii file and process it in Excel. 
 I have used this funtion to address that problem.
