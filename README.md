@@ -7,7 +7,7 @@ I often  find myself re-generating code that  I know I have already produced on 
 
 I often work with:
 
-* VBA, primarily for Excel but some with Word and Access  
+* [VBA](http://msdn.microsoft.com/en-us/office/ff688774.aspx), primarily for Excel but some with Word and Access  
 * [D3.js](http://www.d3js.org), a very powerful data visualiaztion package written in javascript  
   * [Dimple.js](http://www.Dimplejs.org) an extension of D3.js
   * [Crossfilter.js](http://square.github.io/crossfilter/) another useful library of javascript
