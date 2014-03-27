@@ -18,7 +18,7 @@ I plan on putting together alternative files that will share the various code sn
 I will put links to the files here.
 
 * [VBA](#vba-stuff)
-* [D3JS]
+* [D3JS](#d3-stuff)
 * [eViews]
 * [Other]
 
