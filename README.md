@@ -31,4 +31,4 @@ Any comments ar suggestions are welcome.
 * [Splitting a string, used in my case to allow reading an ascii file](https://github.com/LessGoudarzi/codeSnippets/blob/master/Splitter_read_acsii.md) 
 
 ## <a name="d3-stuff" href="#vba-stuff"></a> D3JS
-* [A shell with libraries and basic page layout](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md)
+* [A shell with libraries and basic page layout](https://github.com/LessGoudarzi/codeSnippets/blob/master/shell_template.md)
