@@ -1,6 +1,6 @@
 ## Shell for D3 applications
 
-This code example provides a rudimentary shell for a web page using D3.JS.  It provides for an initial layout of the web page with a div's set up for title, main, legend, and attribution.
+*_This code example provides a rudimentary shell for a web page using D3.JS.  It provides for an initial layout of the web page with a div's set up for title, main, legend, and attribution._*
 
 The code also loads the various D3 libraries from a subfolder "lib".
 
