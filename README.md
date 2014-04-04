@@ -26,11 +26,11 @@ Each section that follows contains links to snippets in each language.
 
 Any comments ar suggestions are welcome.
 
-## <a name="vba-stuff" href="#vba-stuff"></a> VBA
+### <a name="vba-stuff" href="#vba-stuff"></a> VBA
 * [Creating and using an Index](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md)
 * [Splitting a string, used in my case to allow reading an ascii file](https://github.com/LessGoudarzi/codeSnippets/blob/master/Splitter_read_acsii.md)
 * [Getting last row and column in a worksheet](https://github.com/LessGoudarzi/codeSnippets/blob/master/vba_get_lastrow.md)
 
-## <a name="d3-stuff" href="#vba-stuff"></a> D3JS
+### <a name="d3-stuff" href="#vba-stuff"></a> D3JS
 * [A shell with libraries and basic page layout](https://github.com/LessGoudarzi/codeSnippets/blob/master/shell_template.md)
 * [A couple of filters that proved valuable](https://github.com/LessGoudarzi/codeSnippets/blob/master/filter_example.md)
