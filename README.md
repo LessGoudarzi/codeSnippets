@@ -33,3 +33,4 @@ Any comments ar suggestions are welcome.
 
 ## <a name="d3-stuff" href="#vba-stuff"></a> D3JS
 * [A shell with libraries and basic page layout](https://github.com/LessGoudarzi/codeSnippets/blob/master/shell_template.md)
+* [A couple of filters that proved valuable](https://github.com/LessGoudarzi/codeSnippets/blob/master/filter_example.md)
