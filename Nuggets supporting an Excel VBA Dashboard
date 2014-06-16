@@ -9,9 +9,10 @@ see c_reporting.xlsm in Colombia folder
 This includes the use of indices, bubblesort and code generated data dependent checkboxes for UI
 Note, there is some dead subs that have not been eliminated at this point
 
-
+More cleanup and description to follow
 
 ```VBA
+
 Public refMax, crudeMax, yearMax, productMax As Long                   'This tracks the last position used in the playIndex array
 Public refIndex(10), crudeIndex(10), yearIndex(30), index(30), productIndex(10) As String        'This is the array that holds the index -- max indexes = 2000
 
@@ -896,11 +897,7 @@ Sub BubbleSort(arr, lngMax)
   Next i
 End Sub
 
-
-
 ```
 
-
-More cleanup and description to follow
 
 
