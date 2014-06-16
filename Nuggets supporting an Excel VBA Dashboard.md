@@ -6,7 +6,11 @@ Below are a series of VBA sub and functions used in a draft implementation
 This is designed to use normalized data extracted from a GAMS GDX file using the GDXXRW.exe utility routine
 see c_reporting.xlsm in Colombia folder
 
-This includes the use of indices, bubblesort and code generated data dependent checkboxes for UI
+This includes the use of:
+* indices, 
+* bubblesort and
+* code generated data dependent checkboxes for UI
+
 Note, there is some dead subs that have not been eliminated at this point
 
 More cleanup and description to follow
