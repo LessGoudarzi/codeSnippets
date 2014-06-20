@@ -1,7 +1,11 @@
 Sort Routines
 ==============
 
-Note, I don't have a traceback to where I found these.  If anyone recognizes them, please forward me the reference for adding an appropriate source reference.
+
+
+### Code coming from www.spreadsheetadvice.com
+
+
 
 ```VBA
 
