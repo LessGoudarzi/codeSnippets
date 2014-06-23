@@ -4,7 +4,7 @@ Building an Excel Dashboard using VBA
 Below are a series of VBA sub and functions used in a draft implementation
 
 This is designed to use normalized data extracted from a GAMS GDX file using the GDXXRW.exe utility routine
-see c_reporting.xlsm in Colombia folder
+see c_reporting.xlsm
 
 This includes the use of:
 * indices, 
