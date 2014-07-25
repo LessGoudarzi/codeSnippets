@@ -30,7 +30,7 @@ Any comments ar suggestions are welcome.
 * [Creating and using an Index](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md)
 * [Splitting a string, used in my case to allow reading an ascii file](https://github.com/LessGoudarzi/codeSnippets/blob/master/Splitter_read_acsii.md)
 * [Getting last row and column in a worksheet](https://github.com/LessGoudarzi/codeSnippets/blob/master/vba_get_lastrow.md)
-* [Creating an Excel Dashboard](https://github.com/LessGoudarzi/codeSnippets/blob/master/Nuggets supporting an Excel VBA Dashboard.md)
+* [Creating an Excel Dashboard: GDX data extract, radio boxes and graphs](https://github.com/LessGoudarzi/codeSnippets/blob/master/Nuggets supporting an Excel VBA Dashboard.md)
 * [Sort Routines](https://github.com/LessGoudarzi/codeSnippets/blob/master/VBA Sort Routines.md)
 
 ### <a name="d3-stuff" href="#vba-stuff"></a> D3JS
