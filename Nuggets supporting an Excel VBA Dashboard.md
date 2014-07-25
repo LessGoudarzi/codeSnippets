@@ -882,6 +882,8 @@ Sub displayProductPrices()
         
 
 End Sub
+
+
 Sub BubbleSort(arr, lngMax)
   Dim strTemp As String
   Dim i As Long
@@ -899,6 +901,212 @@ Sub BubbleSort(arr, lngMax)
       End If
     Next j
   Next i
+End Sub
+
+
+Sub get_ProcessBuilds()
+
+        Sheets("ProcessBuilds").Select
+
+        ' initialize the array to clean it up
+        For i = 1 To 30
+            index(i) = ""
+            Next i
+            
+            indexMax = 0
+            PBrefMax = 0
+            processMax = 0
+            yearMax = 0
+        
+        tempr = Cells.Find("*", SearchOrder:=xlByRows, SearchDirection:=xlPrevious).Row ' max row
+        'tempC = Cells.Find("*", SearchOrder:=xlByColumns, SearchDirection:=xlPrevious).column 'max column
+
+        ' Cycle down rows to collect unique values
+        For i = 2 To tempr
+            If Cells(i, 4) = "Per2" Then   ' NOTE THIS IS PERIOD 2 BECAUSE WE ARE TAKING THE BUILD DECISIONS
+               rIndex = getIndex("PB_" & Cells(i, 1), PBrefIndex, PBrefMax)
+               pindex = getIndex(Cells(i, 3), processIndex, processMax)
+               yIndex = getIndex(Cells(i, 5), yearIndex, yearMax)
+                
+              End If
+            Next i
+            
+            
+         ReDim buildValues(yearMax, refMax, processMax)
+         
+         Call BubbleSort(yearIndex, yearMax) ' modified one provided to pass the upper limit of array being sorted
+         Call BubbleSort(PBrefIndex, PBrefMax) ' modified one provided to pass the upper limit of array being sorted
+         Call BubbleSort(processIndex, processMax) ' modified one provided to pass the upper limit of array being sorted
+         
+        ' MsgBox (processMax)
+         
+         ' Create array holding the data in sorted order
+         For i = 2 To tempr
+          If Cells(i, 4) = "Per2" Then
+            yIndex = getPosition(Cells(i, 5), yearIndex, yearMax)
+            rIndex = getPosition("PB_" & Cells(i, 1), PBrefIndex, PBrefMax)
+            pindex = getPosition(Cells(i, 3), processIndex, processMax)
+            buildValues(yIndex, rIndex, pindex) = Cells(i, 6)
+            
+            End If
+            'MsgBox (yIndex & " : " & Cells(i, 4))
+         
+         Next i
+        
+        ' output the build values table ===================
+        ' by year and refiner
+        Sheets("staging").Select
+        sRow = 2
+        scolumn = 65
+        cRow = sRow
+        
+        ' add headings ==============================
+       tCol = scolumn + 1
+       For i = 1 To refMax
+           tCol = tCol
+           Cells(sRow, tCol) = PBrefIndex(i)
+        
+            For j = 1 To processMax
+                Cells(sRow + 1, tCol) = processIndex(j)
+                tCol = tCol + 1
+            Next j
+       
+       Next i
+        
+        cRow = cRow + 1 ' because used extra heading row
+        
+    '  For y = 1 To yearMax
+    '  For r = 1 To refMax
+    '  tempstr = ""
+    '  For p = 1 To productMax
+    '               tempstr = tempstr & productValues(y, r, p) & vbCrLf
+    '  Next p
+    '    MsgBox tempstr
+    '  Next r
+    '  Next y
+      
+        
+       For i = 1 To yearMax
+           tCol = scolumn + 1
+           cRow = cRow + 1
+           Cells(cRow, scolumn) = yearIndex(i)
+           
+          For j = 1 To PBrefMax
+               For k = 1 To processMax
+               'MsgBox ("values of year, refinery and product are = " & i & " : " & j & " : " & k)
+              ' MsgBox productValues(i, j, k)
+               Cells(cRow, tCol) = buildValues(i, j, k)
+                tCol = tCol + 1
+                Next k
+            Next j
+          Next i
+            
+
+       
+       For i = 1 To PBrefMax
+           Call insertCheckBoxGeneric(i, PBrefIndex, 1860)
+       Next i
+            
+      For i = 1 To processMax
+           Call insertCheckBoxGeneric(i, processIndex, 2030)
+       Next i
+            
+        'lRow = cRow
+        'lCol = scolumn + refMax * productMax
+        
+        'MsgBox (sRow & " : " & scolumn & " ending at " & lRow & " : " & lCol)
+        'Call processBuilds_1(sRow, scolumn, lRow, lCol)
+        'Call displayProcessBuilds
+        
+End Sub
+Sub insertCheckBoxGeneric(i, index, location)
+'
+' insertCheckBox Macro
+  kickright = 50
+' improve by allowing more columns if number of checkboxes exceeds a threshold value, say 10
+ If i < 11 Then
+        y = location + (i - 1) * 20
+        x = 925.5
+    Else
+        If i < 21 Then
+            y = location + (i - 11) * 20
+            x = 925.5 + kickright
+        Else
+            y = location + (i - 21) * 20
+            x = 925.5 + kickright * 2
+        End If
+    End If
+    
+    Sheets("Dashboard").Select
+    ActiveSheet.CheckBoxes.Add(x, y, 72, 20).Select
+    Selection.Characters.Text = index(i)
+    Selection.Name = index(i)
+    'MsgBox ("name checkbox " & prefix & index(i))
+    ' If i = 1 Then
+     Selection.Value = True
+    'Else
+     'Selection.Value = False
+    'End If
+    'ActiveSheet.Shapes("My Refinery 2" & i).Select
+    Selection.OnAction = "displayProcessBuilds"
+    
+
+
+End Sub
+Sub displayProcessBuilds()
+
+' note this has to be parameter specific due to the reliance on specific columns for hide/unhide
+
+    Application.ScreenUpdating = False
+    Sheets("Staging").Select
+    
+    'MsgBox (PBrefMax & " : " & processMax)
+
+       scolumn = 65
+        For r = 1 To PBrefMax
+        ' check to see if refinery is to be displayed
+        ' if not, turn all products prices in region off (hide columns)
+            If Sheets("Dashboard").CheckBoxes(PBrefIndex(r)).Value <> Checked Then
+                For p = 1 To processMax
+                        tval = (scolumn + (r - 1) * processMax + p)
+                        If tval <= 26 Then cSelect = letter(tval)
+                        If (tval > 26 And tval <= 52) Then cSelect = "A" & letter(tval - 26)
+                        If (tval > 52 And tval <= 78) Then cSelect = "B" & letter(tval - 52)
+                        If (tval > 78 And tval <= 104) Then cSelect = "C" & letter(tval - 78)
+                        If (tval > 104 And tval <= 130) Then cSelect = "D" & letter(tval - 104)
+                        If (tval > 130 And tval <= 156) Then cSelect = "E" & letter(tval - 130)
+                        If (tval > 156 And tval <= 182) Then cSelect = "F" & letter(tval - 156)
+                        Columns(cSelect & ":" & cSelect).Select
+                        Selection.EntireColumn.Hidden = True
+                 Next p
+            Else
+                For p = 1 To processMax
+                       tval = (scolumn + (r - 1) * processMax + p)
+                        If tval <= 26 Then cSelect = letter(tval)
+                        If (tval > 26 And tval <= 52) Then cSelect = "A" & letter(tval - 26)
+                        If (tval > 52 And tval <= 78) Then cSelect = "B" & letter(tval - 52)
+                        If (tval > 78 And tval <= 104) Then cSelect = "C" & letter(tval - 78)
+                        If (tval > 104 And tval <= 130) Then cSelect = "D" & letter(tval - 104)
+                        If (tval > 130 And tval <= 156) Then cSelect = "E" & letter(tval - 130)
+                        If (tval > 156 And tval <= 182) Then cSelect = "F" & letter(tval - 156)
+                        ' check to see whether to display products
+                        If Sheets("Dashboard").CheckBoxes(processIndex(p)).Value <> Checked Then
+                                    Columns(cSelect & ":" & cSelect).Select
+                                    Selection.EntireColumn.Hidden = True
+                                Else
+                                    Columns(cSelect & ":" & cSelect).Select
+                                    Selection.EntireColumn.Hidden = False
+                                End If
+                Next p
+            
+            End If
+            
+        Next r
+        
+        
+       Sheets("Dashboard").Select
+        
+
 End Sub
 
 ```
