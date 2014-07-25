@@ -15,7 +15,7 @@ Note, there is some dead subs that have not been eliminated at this point
 
 More cleanup and description to follow
 
-## The following snippet is DOC command level code to extract data from GDX and place in existing xls file.
+### The following snippet is DOC command level code to extract data from GDX and place in existing xls file.
 
 ```DOS
 gdxxrw input=CLF_Report.gdx  o=c_reporting.xlsm par=repCrudeInputs rng=crudeInputs!a2 rdim=4 text="refinery" rng=crudeInputs!a1 text="crude_type" rng=crudeInputs!b1 text="period" rng=crudeInputs!c1 text="year" rng=crudeInputs!d1 text="value" rng=crudeInputs!e1
@@ -27,7 +27,7 @@ gdxxrw input=CLF_Report.gdx  o=c_reporting.xlsm par=repProcessBuilds rng=Process
 gdxxrw input=CLF_Report.gdx  o=c_reporting.xlsm par=repCapitalInvestment rng=CapitalInvestment!a2 rdim=5 text="refinery" rng=CapitalInvestment!a1 text="ref_type" rng=CapitalInvestment!b1 text="product" rng=CapitalInvestment!c1 text="period" rng=CapitalInvestment!d1 text="year" rng=CapitalInvestment!e1 text="value" rng=CapitalInvestment!f1
 ```
 
-## Now for the VBA Code
+### Now for the VBA Code
 
 
 ```VBA
