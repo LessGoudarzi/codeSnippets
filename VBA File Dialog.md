@@ -1,7 +1,7 @@
 This routine presents a file dialog to the user to select file
 ---------------------------------------------------------------
 
-''' vba
+``` vba
 
 Sub getFilePointer() '
     'Declare a variable as a FileDialog object.
@@ -41,4 +41,4 @@ Sub getFilePointer() '
     Set fd = Nothing
 
 End Sub
-'''
+```
