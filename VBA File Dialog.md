@@ -1,4 +1,5 @@
-# This routine presents a file dialog to the user to select file
+This routine presents a file dialog to the user to select file
+---------------------------------------------------------------
 
 ''' vba
 
