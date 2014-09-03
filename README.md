@@ -1,3 +1,5 @@
+* [Help with GitHub](https://help.github.com)
+
 codeSnippets
 ============
 
