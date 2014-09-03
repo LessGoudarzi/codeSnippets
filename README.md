@@ -33,6 +33,7 @@ Any comments ar suggestions are welcome.
 * [Creating an Excel Dashboard: GDX data extract, radio boxes and graphs](https://github.com/LessGoudarzi/codeSnippets/blob/master/Nuggets supporting an Excel VBA Dashboard.md)
 * [Sort Routines](https://github.com/LessGoudarzi/codeSnippets/blob/master/VBA Sort Routines.md)
 * [File selection from dialog](https://github.com/LessGoudarzi/codeSnippets/blob/master/VBA%20File%20Dialog.md)
+* [Collection of VBA Routines](https://www.dropbox.com/sh/ami0jicq9ik347e/AACG6k5tmGnXG3vvpodzGITia?dl=0)
 
 ### <a name="d3-stuff" href="#vba-stuff"></a> D3JS
 * [A shell with libraries and basic page layout](https://github.com/LessGoudarzi/codeSnippets/blob/master/shell_template.md)
