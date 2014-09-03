@@ -34,6 +34,20 @@ Any comments ar suggestions are welcome.
 * [Sort Routines](https://github.com/LessGoudarzi/codeSnippets/blob/master/VBA Sort Routines.md)
 * [File selection from dialog](https://github.com/LessGoudarzi/codeSnippets/blob/master/VBA%20File%20Dialog.md)
 * [Collection of VBA Routines](https://www.dropbox.com/sh/ami0jicq9ik347e/AACG6k5tmGnXG3vvpodzGITia?dl=0)
+  * compare load shapes ascii read and cycling.bas
+  * compare load shapes.bas
+  * demand recast for load shapes.bas
+  * excelRangeToCSV.bas
+  * export_jason.bas
+  * extract and process weather station data.bas
+  * myListofMacros.bas
+  * NYISO load file processing.bas
+  * pauseUntil.bas
+  * range statistic functions.bas
+  * read_ascii_vba.bas
+  * Sub export_Jason_table.bas
+  * Summary_Analysis.bas
+
 
 ### <a name="d3-stuff" href="#vba-stuff"></a> D3JS
 * [A shell with libraries and basic page layout](https://github.com/LessGoudarzi/codeSnippets/blob/master/shell_template.md)
