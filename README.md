@@ -39,6 +39,7 @@ Any comments ar suggestions are welcome.
 * [Sort Routines](https://github.com/LessGoudarzi/codeSnippets/blob/master/VBA Sort Routines.md)
 * [File selection from dialog](https://github.com/LessGoudarzi/codeSnippets/blob/master/VBA%20File%20Dialog.md)
 * [Collection of VBA Routines](https://www.dropbox.com/sh/ami0jicq9ik347e/AACG6k5tmGnXG3vvpodzGITia?dl=0)
+
   * compare load shapes ascii read and cycling.bas
   * compare load shapes.bas
   * demand recast for load shapes.bas
@@ -57,3 +58,7 @@ Any comments ar suggestions are welcome.
 ### <a name="d3-stuff" href="#vba-stuff"></a> D3JS
 * [A shell with libraries and basic page layout](https://github.com/LessGoudarzi/codeSnippets/blob/master/shell_template.md)
 * [A couple of filters that proved valuable](https://github.com/LessGoudarzi/codeSnippets/blob/master/filter_example.md)
+
+  * Filter based on value = x
+  * Filter based on >= value
+  * Filter union of two arrays based on key element in an array
