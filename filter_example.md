@@ -59,8 +59,11 @@ Apologies and will give credit if anyone can provide a reference to the originat
 
 }
 
+```
+
 ### this one is cool, it returns the union of two arrays based on a specific key value matching in the arrays
 
+```
 function filterUnionArrays(array1, array2,prop){  // will find the union of two arrays based on element "prop" in array1
 
     var filtered = [];
