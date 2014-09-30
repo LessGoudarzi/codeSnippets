@@ -1,4 +1,5 @@
-### This VBA routine taken from http://www.ozgrid.com/News/excel-histogram.htm
+### This VBA routine taken from 
+#### http://www.ozgrid.com/News/excel-histogram.htm
 ### allows user to calculate histogram in VBA code
 
 ``` VBA
