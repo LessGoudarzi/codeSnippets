@@ -4,6 +4,15 @@
 ``` VBA
 
 Sub Hist(M As Long, arr() As Single)
+
+   ' sample of how to load array from range
+    'Dim vArr As Variant
+    'Dim l As Long, m As Long
+     
+    'vArr = Range("A10:C600").Value
+    'pass range values to array
+
+
     Dim i As Long, j As Long
     Dim Length As Single
     ReDim breaks(M) As Single
