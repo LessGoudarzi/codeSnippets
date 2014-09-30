@@ -53,6 +53,8 @@ Any comments ar suggestions are welcome.
   * read_ascii_vba.bas
   * Sub export_Jason_table.bas
   * Summary_Analysis.bas
+ 
+* [Calculate frequency distribution](https://github.com/LessGoudarzi/codeSnippets/blob/master/Histogram.md)
 
 
 ### <a name="d3-stuff" href="#vba-stuff"></a> D3JS
