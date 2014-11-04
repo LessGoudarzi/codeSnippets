@@ -8,7 +8,7 @@ codeSnippets
 
 ## Snippet Archiving
 
-We often  find myself re-generating code that  We know we have already produced on another project.  As such, we am hoping to use this github to collect together various snippets of code that we can later use.
+We often  find ourselves re-generating code that we know we have already produced on another project.  As such, we are hoping to use this github to collect together various snippets of code that we can later use.
 
 The following provide links to the organizations associated with the software we often work with:
 
@@ -19,7 +19,7 @@ The following provide links to the organizations associated with the software we
 * [JQuery](http://jquery.com/), jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 * [eViews](http://www.eviews.com/home.html), an eccnometric programming language
 
-We plan on putting together alternative files that will share the various code snippets that I have found useful to re-use.
+We plan on putting together alternative files that will share the various code snippets that we have found useful to re-use.
 
 We will put links to the files here.
 
