@@ -8,9 +8,9 @@ codeSnippets
 
 ## Snippet Archiving
 
-I often  find myself re-generating code that  I know I have already produced on another project.  As such, I am hoping to use this github to collect together various snippets of code that I can later use.
+We often  find myself re-generating code that  We know we have already produced on another project.  As such, we am hoping to use this github to collect together various snippets of code that we can later use.
 
-The following provide links to the organizations associated with the software I often work with:
+The following provide links to the organizations associated with the software we often work with:
 
 * [VBA](http://msdn.microsoft.com/en-us/office/ff688774.aspx), primarily for Excel but some with Word and Access  
 * [D3.js](http://www.d3js.org), a very powerful data visualiaztion package written in javascript  
@@ -19,9 +19,9 @@ The following provide links to the organizations associated with the software I 
 * [JQuery](http://jquery.com/), jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 * [eViews](http://www.eviews.com/home.html), an eccnometric programming language
 
-I plan on putting together alternative files that will share the various code snippets that I have found useful to re-use.
+We plan on putting together alternative files that will share the various code snippets that I have found useful to re-use.
 
-I will put links to the files here.
+We will put links to the files here.
 
 * [VBA](#vba-stuff)
 * [D3JS](#d3-stuff)
