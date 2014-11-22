@@ -27,7 +27,7 @@ We will put links to the files here.
 * [VBA](#vba-stuff)
 * [D3JS](#d3-stuff)
 * [eViews]
-* [Other, GAMS]
+* [Other, GAMS](#other)
 
 Each section that follows contains links to snippets in each language.
 
