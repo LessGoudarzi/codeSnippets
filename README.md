@@ -69,4 +69,4 @@ Any comments ar suggestions are welcome.
 
 ### <a name="other" href="#other"></a> Other and GAMS
 
-* [Writing to xls from gdx adding column headers](* [Creating and using an Index](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md))
+* [Writing to xls from gdx adding column headers](GAMS_gdxxrw_Example.md)
