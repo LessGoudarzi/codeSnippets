@@ -15,7 +15,7 @@ Note, there is some dead subs that have not been eliminated at this point
 
 More cleanup and description to follow
 
-### The following snippet is DOC command level code to extract data from GDX and place in existing xls file.
+### The following snippet is DOS command level code to extract data from GDX and place in existing xls file.
 
 ```DOS
 gdxxrw input=CLF_Report.gdx  o=c_reporting.xlsm par=repCrudeInputs rng=crudeInputs!a2 rdim=4 text="refinery" rng=crudeInputs!a1 text="crude_type" rng=crudeInputs!b1 text="period" rng=crudeInputs!c1 text="year" rng=crudeInputs!d1 text="value" rng=crudeInputs!e1
