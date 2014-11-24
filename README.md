@@ -68,3 +68,5 @@ Any comments ar suggestions are welcome.
   * Filter union of two arrays based on key element in an array
 
 ### <a name="other" href="#other"></a> Other and GAMS
+
+* [Writing to xls from gdx adding column headers](* [Creating and using an Index](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md))
