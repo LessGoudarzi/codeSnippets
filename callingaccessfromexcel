@@ -1,0 +1,29 @@
+`VBA
+Sub Get_NEMdataref_post2014()
+ 
+     Dim X_Year As Integer
+     Dim X_Rgn As Integer
+     X_Year = Range("Year").Value
+     X_Rgn = Range("Reg_Num").Value
+     
+     Dim db As Database
+     Dim qdf As QueryDef
+     Dim rst As Recordset
+     
+     Sheets("NEMS_RF2020").Select
+     Range("B5:AC40").ClearContents
+     
+     Set db = OpenDatabase("\\ORCA\Office\NREL\Task Order No. 8\Load Shape Comparisons\NREL_Loadshapes.accdb")
+     Set qdf = db.QueryDefs("Bau_Sysld query")
+     qdf.Parameters("New Year").Value = X_Year
+     qdf.Parameters("New Region").Value = X_Rgn
+     
+     Set rst = qdf.OpenRecordset
+     Range("b5").Offset(0, 0).CopyFromRecordset rst
+     
+     rst.Close
+     qdf.Close
+     db.Close
+     
+End Sub
+`
