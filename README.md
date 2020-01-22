@@ -34,7 +34,7 @@ Each section that follows contains links to snippets in each language.
 Any comments ar suggestions are welcome.
 
 ### <a name="vba-stuff" href="#vba-stuff"></a> VBA
-* [Creating Listing of Worksheets in a workbook with menu of hyperlinks]()
+* [Creating Listing of Worksheets in a workbook with menu of hyperlinks](https://github.com/LessGoudarzi/codeSnippets/blob/master/menu_of_worksheets)
 * [Creating and using an Index](https://github.com/LessGoudarzi/codeSnippets/blob/master/examplesVBA.md)
 * [Splitting a string, used in my case to allow reading an ascii file](https://github.com/LessGoudarzi/codeSnippets/blob/master/Splitter_read_acsii.md)
 * [Getting last row and column in a worksheet](https://github.com/LessGoudarzi/codeSnippets/blob/master/vba_get_lastrow.md)
