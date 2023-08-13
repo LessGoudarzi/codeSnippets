@@ -17,7 +17,7 @@ The following provide links to the organizations associated with the software we
   * [Dimple.js](http://www.Dimplejs.org) an extension of D3.js
   * [Crossfilter.js](http://square.github.io/crossfilter/) another useful library of javascript
 * [JQuery](http://jquery.com/), jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
-* [eViews](http://www.eviews.com/home.html), an eccnometric programming language
+* [eViews](http://www.eviews.com/home.html), an econometric programming language
 * [GAMS] will add link soon
 
 We plan on putting together alternative files that will share the various code snippets that we have found useful to re-use.
